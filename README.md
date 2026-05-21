@@ -1,5 +1,9 @@
 # 🛡️ AI-Driven Threat Detection System
 
+<p align="center">
+  <img src="assets/banner.jpg" alt="AI Threat Detection Banner" width="100%">
+</p>
+
 An enterprise-grade, machine learning-powered Security Operations Center (SOC) platform designed to capture network traffic, detect malicious activity, classify intrusion vectors using a Random Forest Classifier, and manage alerts in an interactive dashboard.
 
 ---
