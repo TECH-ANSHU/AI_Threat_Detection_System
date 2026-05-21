@@ -74,11 +74,9 @@ graph TD
     I -->|Update Ticket Status & Notes| H
 ```
 
----
-
 ## 📁 Folder Structure
 
-```
+```bash
 AI_Threat_Detection_System/
 │
 ├── app.py                      # Streamlit SOC dashboard frontend entry point
@@ -90,6 +88,9 @@ AI_Threat_Detection_System/
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Main documentation (this file)
 ├── .gitignore                  # Git exclusion rules
+│
+├── assets/                     # Repository visual assets and branding
+│   ├── banner.jpg              # Main GitHub project banner
 │
 ├── dataset/                    # Training and validation datasets
 │   ├── sample_dataset.csv      # Generated training data
@@ -105,7 +106,11 @@ AI_Threat_Detection_System/
 │   └── README.md               # Description of syslog formats
 │
 ├── screenshots/                # Showcase assets for GitHub/Resume
-│   └── README.md               # Reference guidelines for capturing screenshots
+│   ├── soc-dashboard.png       # Live SOC monitoring dashboard
+│   ├── threat-alerts.png       # Threat detection alerts preview
+│   ├── analytics.png           # Threat analytics charts and graphs
+│   ├── model-performance.png   # ML model diagnostics and metrics
+│   └── README.md               # Screenshot documentation guidelines
 │
 ├── static/                     # Styling custom overrides
 │   ├── styles.css              # Dark theme, glassmorphism, and indicator animations
