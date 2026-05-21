@@ -1,0 +1,28 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Local databases and logs
+*.db
+*.log
+!logs/README.md
+!database/README.md
+
+# Compiled Models (exclude from git but we can train them locally)
+models/*.pkl
+!models/README.md
+
+# OS files
+.DS_Store
+Thumbs.db

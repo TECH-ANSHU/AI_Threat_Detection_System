@@ -1,0 +1,153 @@
+/* Premium Dark SOC CSS Override styles */
+
+/* Global settings */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Share+Tech+Mono&display=swap');
+
+/* Typography override */
+html, body, [class*="css"] {
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Glassmorphic Metrics Card */
+.metric-card {
+    background: rgba(15, 23, 42, 0.6) !important;
+    border: 1px solid rgba(0, 240, 255, 0.15) !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    backdrop-filter: blur(8px) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(0, 240, 255, 0.4) !important;
+    box-shadow: 0 8px 30px rgba(0, 240, 255, 0.1) !important;
+}
+
+/* Cyber Terminal emulator */
+.cyber-terminal {
+    font-family: 'Share Tech Mono', monospace !important;
+    background-color: #050811 !important;
+    color: #38bdf8 !important;
+    border: 1px solid #1e293b !important;
+    border-left: 3px solid #00F0FF !important;
+    border-radius: 6px !important;
+    padding: 15px !important;
+    max-height: 350px !important;
+    overflow-y: auto !important;
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Severity badge colors */
+.badge-critical {
+    background-color: rgba(255, 59, 48, 0.15);
+    color: #FF3B30;
+    border: 1px solid rgba(255, 59, 48, 0.3);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.badge-high {
+    background-color: rgba(255, 149, 0, 0.15);
+    color: #FF9500;
+    border: 1px solid rgba(255, 149, 0, 0.3);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.badge-medium {
+    background-color: rgba(255, 204, 0, 0.15);
+    color: #FFCC00;
+    border: 1px solid rgba(255, 204, 0, 0.3);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.badge-low {
+    background-color: rgba(52, 199, 89, 0.15);
+    color: #34C759;
+    border: 1px solid rgba(52, 199, 89, 0.3);
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+/* Pulsing cyber status indicators */
+.status-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.status-online {
+    background-color: #34C759;
+    box-shadow: 0 0 10px #34C759;
+    animation: pulse 1.8s infinite alternate;
+}
+
+.status-scanning {
+    background-color: #00F0FF;
+    box-shadow: 0 0 10px #00F0FF;
+    animation: pulse 1.2s infinite alternate;
+}
+
+.status-alert {
+    background-color: #FF3B30;
+    box-shadow: 0 0 12px #FF3B30;
+    animation: flash 0.8s infinite alternate;
+}
+
+/* Animations */
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(1.1);
+        opacity: 1;
+        box-shadow: 0 0 14px currentColor;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 0.3;
+        box-shadow: 0 0 4px #FF3B30;
+    }
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 16px #FF3B30;
+    }
+}
+
+/* Styling headers */
+h1, h2, h3 {
+    letter-spacing: 0.5px;
+    font-weight: 600 !important;
+}
+
+/* Custom Scrollbar for dashboard */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+}
