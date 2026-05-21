@@ -233,4 +233,41 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 ## ✍️ Author
-- **Anshuman Polai** - [LinkedIn Profile URL](https://www.linkedin.com/in/anshumanpolai-cyber/)) | [GitHub Profile URL](https://github.com)
+
+<table>
+<tr>
+
+<td width="120">
+
+<img src="assets/profile.png" width="100" style="border-radius: 50%;" alt="Anshuman Polai"/>
+
+</td>
+
+<td>
+
+<h3>Anshuman Polai</h3>
+
+<p>
+Cybersecurity Enthusiast | AI Threat Detection | Web Developer
+</p>
+
+<p align="left">
+
+<a href="https://www.linkedin.com/in/anshumanpolai-cyber/" target="blank">
+  <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="linkedin" height="30" width="40" />
+</a>
+
+<a href="https://github.com/TECH-ANSHU" target="blank">
+  <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" height="30" width="40" />
+</a>
+
+<a href="mailto:anshumanpolai@gmail.com">
+  <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="gmail" height="30" width="40" />
+</a>
+
+</p>
+
+</td>
+
+</tr>
+</table>
